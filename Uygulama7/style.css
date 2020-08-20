@@ -1,0 +1,77 @@
+
+    *::selection{
+        background-color:salmon ;
+    }
+    body{
+        background-color:dodgerblue;
+    }
+    .dropdown1{
+        position: relative;
+        display: inline-block;
+    }
+    .dropbutton{
+        background-color:indianred;
+        padding: 12px 18px;
+        color:#fff;
+        border:none;
+        border-radius: 18px ;
+        font-size: 20px;
+        font-variant: small-caps;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        letter-spacing: 0.2em;
+
+    }
+    .dropdown-content1{
+        position: absolute;
+        display: none;
+        padding: 10px 16px;
+        background-color:khaki;
+        box-shadow: 2px 2px 4px #aaa;
+        width: 50%;
+        border-radius: 18px ;
+
+    }
+    .dropdown-content1 a{
+        display: block;
+        padding: 6px 10px;
+        color: indianred;
+        text-decoration: none;
+    }
+
+    .dropdown1:hover .dropdown-content1{ 
+        display: block;
+    }
+    .dropdown-content1 a:hover{ 
+        background-color: #4b3;
+        color: lavender;
+        border-radius: 18px ;
+    }
+    .dropdown1:hover .dropbutton{
+        background-color: deeppink;
+    }
+    .dropdown2{
+        position: relative;
+        display: inline-block;
+        margin-top:60px ;
+    }
+    .dropdown-content2{
+        position: absolute;
+        display: none;
+        padding: 10px 16px;
+        background-color:#000;
+        box-shadow: 2px 2px 4px #aaa;
+        width: 75%;
+        margin-top: 5px;
+        border-radius: 4px ;
+    }
+    .dropdown2:hover .dropdown-content2{
+        display: block;
+    }
+    .dropdown-content2 p{
+        color:#fff;
+    }
+    h1::first-letter{
+        background-color:#188;
+        padding: 8px;
+        text-shadow: 2px 2px 2px whitesmoke;
+    }

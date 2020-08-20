@@ -1,0 +1,54 @@
+.container{
+    width: 75%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin: auto;
+    
+}
+.div1{
+    width: 100%;
+    height: 200px;
+    background-color:blue;
+}
+.div2{
+    float: left;
+    width: 25%;
+    height: 150px;
+    background-color: brown;
+}
+.div3{
+    float: left;
+    width: 25%;
+    height: 150px;
+    background-color: cadetblue;
+}
+.div4{
+    float: left;
+    width: 25%;
+    height: 150px;
+    background-color:brown;
+    
+}
+.div5{
+    float: left;
+    width: 25%;
+    height: 150px;
+    background-color: cadetblue;
+}
+.div6{
+    width: 50%;
+    height: 200px;
+    background-color: tomato;
+    float: left;
+}
+.div7{
+    width: 50%;
+    height: 200px;
+    background-color:darkseagreen;
+    float: left;
+}
+.div8{
+    width: 100%;
+    height: 250px;
+    background-color:gold;
+}

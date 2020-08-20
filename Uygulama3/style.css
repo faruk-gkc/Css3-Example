@@ -1,0 +1,18 @@
+
+        body{
+            background-color: darkturquoise  ;
+        }
+        ol{
+            background-color:#dd9;
+            width: 60%;
+            padding: 11px;
+            border-radius: 10px;
+        }
+        ol li{
+            margin-left:30px;
+            margin-top: 5px;
+            background-color: rosybrown;
+        }
+        h2{
+            color:#444;
+        }
